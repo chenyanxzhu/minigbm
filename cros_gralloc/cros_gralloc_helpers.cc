@@ -95,7 +95,7 @@ uint32_t cros_gralloc_convert_format(int format)
 	case HAL_PIXEL_FORMAT_NV12:
 		return DRM_FORMAT_NV12;
 	case HAL_PIXEL_FORMAT_NV12_Y_TILED_INTEL:
-		return DRM_FORMAT_NV12_Y_TILED_INTEL;
+		return DRM_FORMAT_NV12_INTEL;
 	case HAL_PIXEL_FORMAT_YCbCr_422_I:
 		return DRM_FORMAT_YUYV;
 	case HAL_PIXEL_FORMAT_YCbCr_444_888:

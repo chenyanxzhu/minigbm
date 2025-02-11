@@ -252,7 +252,7 @@ const std::unordered_map<uint32_t, std::vector<PlaneLayout>>& GetPlaneLayoutsMap
                               .verticalSubsampling = 2,
                       }}},
 
-                    {DRM_FORMAT_NV12_Y_TILED_INTEL,
+                    {DRM_FORMAT_NV12_INTEL,
                      {{
                               .components = {{.type = android::gralloc4::PlaneLayoutComponentType_Y,
                                               .offsetInBits = 0,
