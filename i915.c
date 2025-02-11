@@ -48,7 +48,7 @@ static const uint32_t linear_source_formats[] = { DRM_FORMAT_R16,    DRM_FORMAT_
                                                  DRM_FORMAT_YUV444, DRM_FORMAT_NV21,
                                                  DRM_FORMAT_P010 };
 
-static const uint32_t source_formats[] = { DRM_FORMAT_P010_INTEL, DRM_FORMAT_NV12_Y_TILED_INTEL };
+static const uint32_t source_formats[] = { DRM_FORMAT_P010_INTEL, DRM_FORMAT_NV12_INTEL };
 
 struct iris_memregion {
 	struct drm_i915_gem_memory_class_instance region;

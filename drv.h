@@ -100,7 +100,7 @@ extern "C" {
 #define I915_FORMAT_MOD_4_TILED	fourcc_mod_code(INTEL, 9)
 #define I915_TILING_4		9
 
-#define DRM_FORMAT_NV12_Y_TILED_INTEL fourcc_code('9', '9', '9', '6')
+#define DRM_FORMAT_NV12_INTEL fourcc_code('9', '9', '9', '6')
 
 #define DRM_FORMAT_P010_INTEL fourcc_code('P', '0', '0', '9')
 
