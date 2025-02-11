@@ -587,7 +587,7 @@ int32_t CrosGralloc1::lockYCbCr(buffer_handle_t bufferHandle,
 
 	switch (hnd->format) {
 	case DRM_FORMAT_NV12:
-	case DRM_FORMAT_NV12_Y_TILED_INTEL:
+	case DRM_FORMAT_NV12_INTEL:
 		ycbcr->y = addr[0];
 		ycbcr->cb = addr[1];
 		ycbcr->cr = addr[1] + 1;

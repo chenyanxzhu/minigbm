@@ -104,7 +104,7 @@ static const struct planar_layout *layout_from_format(uint32_t format)
 
 	case DRM_FORMAT_NV12:
 	case DRM_FORMAT_NV21:
-	case DRM_FORMAT_NV12_Y_TILED_INTEL:
+	case DRM_FORMAT_NV12_INTEL:
 		return &biplanar_yuv_420_layout;
 
 	case DRM_FORMAT_P010:
@@ -187,7 +187,7 @@ size_t drv_num_planes_from_format(uint32_t format)
                switch (format) {
                case DRM_FORMAT_R16:
                        return 1;
-               case DRM_FORMAT_NV12_Y_TILED_INTEL:
+               case DRM_FORMAT_NV12_INTEL:
                case DRM_FORMAT_NV16:
                case DRM_FORMAT_P010:
 	       case DRM_FORMAT_P010_INTEL:

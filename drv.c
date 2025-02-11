@@ -747,7 +747,7 @@ uint32_t drv_resolved_common_drm_format(uint32_t format)
 {
 	uint32_t ret = format;
 	switch (format) {
-		case DRM_FORMAT_NV12_Y_TILED_INTEL:
+		case DRM_FORMAT_NV12_INTEL:
 		case DRM_FORMAT_FLEX_YCbCr_420_888:
 		case DRM_FORMAT_FLEX_IMPLEMENTATION_DEFINED:
 			ret = DRM_FORMAT_NV12;
